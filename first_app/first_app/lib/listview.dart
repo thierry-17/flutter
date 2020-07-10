@@ -17,7 +17,6 @@ class RandomWords extends StatefulWidget{
 }
 
 class RandomWordsState extends State<RandomWords>{
-	@override
 	final _suggestions = <WordPair>[];
 	final _biggerFont = const TextStyle(fontSize:18.0);
 
